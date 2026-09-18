@@ -9,67 +9,79 @@ def calculate_poisson_probability(lmbda, k):
 
 def main():
     print("======================================================")
-    print("   AGRICULTURAL PEST SIGHTINGS - KAGGLE DATASET ANALYSIS")
+    print("   AGRICULTURAL PEST SIGHTINGS - DATASET ANALYSIS")
     print("======================================================\n")
     
     filename = 'dataset.csv'
     
-    # 1. Inform the user to download a dataset from Kaggle if it doesn't exist
     if not os.path.exists(filename):
-        print("[!] Dataset not found locally.")
-        print("    Please download a formal Pest Detection dataset from Kaggle.")
-        print("\n    👉 KAGGLE LINK: https://www.kaggle.com/datasets/vigneshwarans10/smart-pest-detection-agriculture-dataset")
-        print(f"\n    Once downloaded, extract the CSV, rename it to '{filename}', place it in this folder, and run this script again.\n")
+        print(f"[!] Error: {filename} not found in the current directory.")
         return
 
     try:
         # Load dataset using pandas
         df = pd.read_csv(filename)
-        print(f"[*] Successfully loaded dataset: '{filename}'")
+        print(f"[*] Successfully loaded formal dataset: '{filename}'")
         print(f"[*] Total records: {len(df)}")
         print(f"[*] Columns: {', '.join(df.columns)}")
         print("-" * 54)
         
         # Display a quick preview
         print("\nData Preview (First 5 rows):")
-        print(df.head().to_string())
+        # Show subset of interesting columns to fit terminal
+        cols_to_show = ['observation_id', 'crop_type', 'avg_temperature_c', 'pest_count_per_plot']
+        if all(c in df.columns for c in cols_to_show):
+            print(df[cols_to_show].head().to_string(index=False))
+        else:
+            print(df.head().to_string())
         print("-" * 54)
         
-        # We need to find the column that represents pest sightings/count
-        pest_col = None
-        for col in df.columns:
-            if 'pest' in col.lower() and ('count' in col.lower() or 'num' in col.lower() or 'severity' in col.lower()):
-                pest_col = col
-                break
-                
-        # Fallback to the first numeric column if no obvious 'pest' column exists
-        if not pest_col:
-            numeric_cols = df.select_dtypes(include='number').columns
-            if len(numeric_cols) > 0:
-                pest_col = numeric_cols[-1] # Usually the target variable is at the end
-            else:
-                print("Error: Could not find any numeric column to calculate pest sightings.")
-                return
-                
-        print(f"\n[ANALYSIS] Using column '{pest_col}' as the Pest Sightings variable.")
-        
+        # Detect the pest count column
+        pest_col = 'pest_count_per_plot'
+        if pest_col not in df.columns:
+            # Fallback
+            for col in df.columns:
+                if 'pest' in col.lower() and ('count' in col.lower() or 'num' in col.lower()):
+                    pest_col = col
+                    break
+                    
         # Overall Analysis
         overall_lambda = df[pest_col].mean()
-        print(f"[GLOBAL] Overall Average Pest Sightings (λ): {overall_lambda:.2f}")
+        print(f"\n[GLOBAL] Overall Average Pest Sightings (λ): {overall_lambda:.2f} pests/plot")
+        
+        # Crop-specific Analysis if available
+        if 'crop_type' in df.columns:
+            print("\n[ANALYSIS] Average Sightings (λ) by Crop Type:")
+            crop_stats = df.groupby('crop_type')[pest_col].mean().reset_index()
+            for _, row in crop_stats.iterrows():
+                print(f"  - {row['crop_type'].ljust(10)}: {row[pest_col]:.2f}")
+                
         print("\n" + "=" * 54)
         
         # Interactive Probability Calculation
         print("PROBABILITY CALCULATOR")
         
+        crop_choice = ""
+        target_lambda = overall_lambda
+        scope = "Global"
+        
+        if 'crop_type' in df.columns:
+            crop_choice = input("Enter a Crop Type (e.g. Wheat, Corn, Tomato) or press Enter for Global: ").strip().capitalize()
+            if crop_choice and crop_choice in df['crop_type'].unique():
+                target_lambda = df[df['crop_type'] == crop_choice][pest_col].mean()
+                scope = crop_choice
+                
+        print(f"Using λ = {target_lambda:.2f} ({scope})")
+        
         threshold_str = input("Enter the action threshold (k) [default=4]: ")
         threshold = int(threshold_str) if threshold_str.strip() else 4
         
         # P(X >= threshold) = 1 - P(X < threshold)
-        prob_less_than = sum(calculate_poisson_probability(overall_lambda, i) for i in range(threshold))
+        prob_less_than = sum(calculate_poisson_probability(target_lambda, i) for i in range(threshold))
         prob_requires_action = 1 - prob_less_than
         
         print("\n--- Final Results ---")
-        print(f"Probability of finding {threshold} or more pests: {prob_requires_action:.2%}")
+        print(f"Probability of finding {threshold} or more pests for {scope}: {prob_requires_action:.2%}")
         
         if prob_requires_action >= 0.5:
             print("Risk Level: HIGH RISK 🚨")
@@ -78,8 +90,6 @@ def main():
         else:
             print("Risk Level: LOW RISK ✅")
             
-    except pd.errors.EmptyDataError:
-        print(f"Error: The file '{filename}' is empty.")
     except Exception as e:
         print(f"An error occurred: {e}")
 
