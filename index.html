@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pest Control Probability Model</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-wrapper">
+        <header class="app-header">
+            <div class="icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bug">
+                    <path d="m8 2 1.88 1.88"/>
+                    <path d="M14.12 3.88 16 2"/>
+                    <path d="M9 7.13v-1a3.003 3.003 0 1 1 6 0v1"/>
+                    <path d="M12 20c-3.3 0-6-2.7-6-6v-3a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v3c0 3.3-2.7 6-6 6"/>
+                    <path d="M12 20v-9"/>
+                    <path d="M6.53 9C4.6 8.8 3 7.1 3 5"/>
+                    <path d="M17.47 9c1.93-.2 3.53-1.9 3.53-4"/>
+                    <path d="M8 14H4"/>
+                    <path d="M20 14h-4"/>
+                    <path d="M9 18c-1.7 1-4 1-6 .5"/>
+                    <path d="M15 18c1.7 1 4 1 6 .5"/>
+                </svg>
+            </div>
+            <h1>Pest Sightings Model</h1>
+        </header>
+
+        <div class="card">
+            <p class="description">
+                Model the number of pest sightings in crop plots as a discrete random variable to estimate the probability that a field requires treatment.
+            </p>
+
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="lambda">
+                        <span>Average Sightings (λ)</span>
+                        <span class="tooltip">Expected pests per plot</span>
+                    </label>
+                    <div class="input-wrapper">
+                        <input type="number" id="lambda" min="0" step="0.1" value="2.5" placeholder="e.g., 2.5">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="threshold">
+                        <span>Action Threshold (k)</span>
+                        <span class="tooltip">Minimum sightings for treatment</span>
+                    </label>
+                    <div class="input-wrapper">
+                        <input type="number" id="threshold" min="0" step="1" value="4" placeholder="e.g., 4">
+                    </div>
+                </div>
+            </div>
+
+            <button class="primary-btn" onclick="calculateProbability()">
+                <span>Calculate Probability</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </button>
+        </div>
+
+        <div id="result" class="result-card">
+            <!-- Results injected here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
