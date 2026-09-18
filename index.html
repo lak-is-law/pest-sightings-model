@@ -30,17 +30,36 @@
 
         <div class="card">
             <p class="description">
-                Model the number of pest sightings in crop plots as a discrete random variable to estimate the probability that a field requires treatment.
+                Model the number of pest sightings as a discrete random variable to estimate the probability that a field requires treatment.
             </p>
 
             <div class="input-section">
+                <div class="input-group">
+                    <label for="cropSelect">
+                        <span>Crop Type (Historical Dataset)</span>
+                    </label>
+                    <div class="input-wrapper">
+                        <select id="cropSelect" onchange="updateLambda()">
+                            <option value="2.61">🌍 Global Average (λ=2.61)</option>
+                            <option value="3.73">🍅 Tomato (λ=3.73)</option>
+                            <option value="2.93">🌽 Corn (λ=2.93)</option>
+                            <option value="2.80">☁️ Cotton (λ=2.80)</option>
+                            <option value="2.30">🌾 Barley (λ=2.30)</option>
+                            <option value="2.27">🍞 Wheat (λ=2.27)</option>
+                            <option value="2.24">🍚 Rice (λ=2.24)</option>
+                            <option value="2.05">🌱 Soybean (λ=2.05)</option>
+                            <option value="custom">✏️ Custom Manual Entry</option>
+                        </select>
+                    </div>
+                </div>
+
                 <div class="input-group">
                     <label for="lambda">
                         <span>Average Sightings (λ)</span>
                         <span class="tooltip">Expected pests per plot</span>
                     </label>
                     <div class="input-wrapper">
-                        <input type="number" id="lambda" min="0" step="0.1" value="2.5" placeholder="e.g., 2.5">
+                        <input type="number" id="lambda" min="0" step="0.1" value="2.61" placeholder="e.g., 2.5">
                     </div>
                 </div>
 

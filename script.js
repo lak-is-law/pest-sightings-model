@@ -13,10 +13,35 @@ function poissonProbability(lambda, k) {
     return (Math.pow(lambda, k) * Math.exp(-lambda)) / factorial(k);
 }
 
+function updateLambda() {
+    const select = document.getElementById('cropSelect');
+    const lambdaInput = document.getElementById('lambda');
+    
+    if (select.value !== 'custom') {
+        lambdaInput.value = select.value;
+        // Briefly highlight the input to show it changed
+        lambdaInput.style.transition = "background-color 0.3s";
+        lambdaInput.style.backgroundColor = "#d1fae5";
+        setTimeout(() => {
+            lambdaInput.style.backgroundColor = "#f9fafb";
+        }, 500);
+    }
+}
+
+// Also detect if the user manually changes lambda to set dropdown to custom
+document.getElementById('lambda').addEventListener('input', function() {
+    const select = document.getElementById('cropSelect');
+    // If the manual input doesn't match the dropdown, set to custom
+    if (this.value !== select.value) {
+        select.value = 'custom';
+    }
+});
+
 function calculateProbability() {
     const lambda = parseFloat(document.getElementById('lambda').value);
     const threshold = parseInt(document.getElementById('threshold').value);
     const resultDiv = document.getElementById('result');
+    const cropSelect = document.getElementById('cropSelect');
 
     if (isNaN(lambda) || isNaN(threshold) || lambda < 0 || threshold < 0) {
         alert("Please enter valid non-negative numbers.");
@@ -42,6 +67,12 @@ function calculateProbability() {
         riskClass = 'risk-medium';
         riskText = 'Moderate Risk';
     }
+    
+    // Get crop name for context
+    let contextName = "Poisson Model";
+    if (cropSelect.value !== 'custom') {
+        contextName = cropSelect.options[cropSelect.selectedIndex].text.split(' (')[0];
+    }
 
     resultDiv.innerHTML = `
         <div class="result-header">Probability of Treatment</div>
@@ -50,7 +81,7 @@ function calculateProbability() {
             ${riskText} (≥ ${threshold} sightings)
         </div>
         <div class="result-footer">
-            Based on Poisson model (λ = ${lambda})
+            Based on ${contextName} (λ = ${lambda})
         </div>
     `;
     
