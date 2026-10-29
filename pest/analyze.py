@@ -103,3 +103,4 @@ if __name__ == "__main__":
 # collab-checkpoint-6: feat(model): implement bayesian prior update for new sighting events
 # collab-checkpoint-7: fix(data): handle missing GPS coordinates in edge-case sightings
 # collab-checkpoint-8: feat(analysis): add cross-validation fold generator for model tuning
+# collab-checkpoint-9: docs(model): document probability threshold selection rationale
