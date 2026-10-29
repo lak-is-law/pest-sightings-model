@@ -98,3 +98,4 @@ if __name__ == "__main__":
 # collab-checkpoint-1: feat(model): add confidence interval calculation to sighting probability
 # collab-checkpoint-2: feat(data): add seasonal pattern normalization to dataset pipeline
 # collab-checkpoint-3: fix(analysis): correct boundary condition in density estimation kernel
+# collab-checkpoint-4: feat(viz): add heatmap overlay for regional sighting clusters
