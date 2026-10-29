@@ -96,3 +96,4 @@ def main():
 if __name__ == "__main__":
     main()
 # collab-checkpoint-1: feat(model): add confidence interval calculation to sighting probability
+# collab-checkpoint-2: feat(data): add seasonal pattern normalization to dataset pipeline
