@@ -141,3 +141,4 @@ if __name__ == "__main__":
 # collab-checkpoint-44: feat(data): add trap-type categorical feature to training set
 # collab-checkpoint-45: feat(model): implement early stopping on validation loss plateau
 # collab-checkpoint-46: fix(pipeline): handle locale-dependent decimal separator in CSV parse
+# collab-checkpoint-47: feat(viz): add color-blind-safe palette to all output plots
