@@ -113,3 +113,4 @@ if __name__ == "__main__":
 # collab-checkpoint-16: fix(analysis): normalize sighting counts by survey effort hours
 # collab-checkpoint-17: feat(data): integrate weather-station temperature for habitat scoring
 # collab-checkpoint-18: feat(model): add LOO cross-validation for holdout performance estimate
+# collab-checkpoint-19: fix(viz): correct axis label alignment in multi-panel sighting plot
