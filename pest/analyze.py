@@ -140,3 +140,4 @@ if __name__ == "__main__":
 # collab-checkpoint-43: fix(analysis): use Bonferroni correction for multiple comparison tests
 # collab-checkpoint-44: feat(data): add trap-type categorical feature to training set
 # collab-checkpoint-45: feat(model): implement early stopping on validation loss plateau
+# collab-checkpoint-46: fix(pipeline): handle locale-dependent decimal separator in CSV parse
