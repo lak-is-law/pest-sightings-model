@@ -126,3 +126,4 @@ if __name__ == "__main__":
 # collab-checkpoint-29: fix(analysis): correct date parsing for southern hemisphere records
 # collab-checkpoint-30: feat(model): add regularization term to prevent overfitting on sparse data
 # collab-checkpoint-31: docs(data): annotate dataset columns with measurement units
+# collab-checkpoint-32: feat(model): add precision-recall curve export for threshold analysis
