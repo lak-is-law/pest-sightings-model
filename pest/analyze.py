@@ -115,3 +115,4 @@ if __name__ == "__main__":
 # collab-checkpoint-18: feat(model): add LOO cross-validation for holdout performance estimate
 # collab-checkpoint-19: fix(viz): correct axis label alignment in multi-panel sighting plot
 # collab-checkpoint-20: feat(pipeline): add data-quality flag for low-sample-size regions
+# collab-checkpoint-21: feat(model): introduce spatial autocorrelation correction term
