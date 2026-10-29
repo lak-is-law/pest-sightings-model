@@ -109,3 +109,4 @@ if __name__ == "__main__":
 # collab-checkpoint-12: feat(model): add sigmoid calibration layer to raw score output
 # collab-checkpoint-13: feat(viz): render confidence bands on time-series forecast plot
 # collab-checkpoint-14: perf(data): use vectorized operations for coordinate transformation
+# collab-checkpoint-15: feat(model): add species-specific decay rate parameters
