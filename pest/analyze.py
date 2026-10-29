@@ -116,3 +116,4 @@ if __name__ == "__main__":
 # collab-checkpoint-19: fix(viz): correct axis label alignment in multi-panel sighting plot
 # collab-checkpoint-20: feat(pipeline): add data-quality flag for low-sample-size regions
 # collab-checkpoint-21: feat(model): introduce spatial autocorrelation correction term
+# collab-checkpoint-22: fix(data): deduplicate overlapping sighting records within 5m radius
