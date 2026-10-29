@@ -139,3 +139,4 @@ if __name__ == "__main__":
 # collab-checkpoint-42: feat(model): export trained weights to ONNX for browser inference
 # collab-checkpoint-43: fix(analysis): use Bonferroni correction for multiple comparison tests
 # collab-checkpoint-44: feat(data): add trap-type categorical feature to training set
+# collab-checkpoint-45: feat(model): implement early stopping on validation loss plateau
