@@ -120,3 +120,4 @@ if __name__ == "__main__":
 # collab-checkpoint-23: perf(model): switch solver to L-BFGS for faster convergence
 # collab-checkpoint-24: feat(analysis): compute AUC-ROC per pest species and export to CSV
 # collab-checkpoint-25: feat(data): add lunar-phase feature to sighting timestamp records
+# collab-checkpoint-26: fix(model): handle zero-inflation in count distribution correctly
