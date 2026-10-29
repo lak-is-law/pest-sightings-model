@@ -106,3 +106,4 @@ if __name__ == "__main__":
 # collab-checkpoint-9: docs(model): document probability threshold selection rationale
 # collab-checkpoint-10: feat(data): add elevation metadata to sighting coordinate records
 # collab-checkpoint-11: fix(pipeline): resolve off-by-one in sliding window aggregation
+# collab-checkpoint-12: feat(model): add sigmoid calibration layer to raw score output
