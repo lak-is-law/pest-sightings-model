@@ -111,3 +111,4 @@ if __name__ == "__main__":
 # collab-checkpoint-14: perf(data): use vectorized operations for coordinate transformation
 # collab-checkpoint-15: feat(model): add species-specific decay rate parameters
 # collab-checkpoint-16: fix(analysis): normalize sighting counts by survey effort hours
+# collab-checkpoint-17: feat(data): integrate weather-station temperature for habitat scoring
