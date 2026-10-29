@@ -121,3 +121,4 @@ if __name__ == "__main__":
 # collab-checkpoint-24: feat(analysis): compute AUC-ROC per pest species and export to CSV
 # collab-checkpoint-25: feat(data): add lunar-phase feature to sighting timestamp records
 # collab-checkpoint-26: fix(model): handle zero-inflation in count distribution correctly
+# collab-checkpoint-27: feat(viz): add interactive map with sighting density choropleth
