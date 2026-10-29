@@ -123,3 +123,4 @@ if __name__ == "__main__":
 # collab-checkpoint-26: fix(model): handle zero-inflation in count distribution correctly
 # collab-checkpoint-27: feat(viz): add interactive map with sighting density choropleth
 # collab-checkpoint-28: feat(pipeline): parallelize feature engineering across CPU cores
+# collab-checkpoint-29: fix(analysis): correct date parsing for southern hemisphere records
