@@ -128,3 +128,4 @@ if __name__ == "__main__":
 # collab-checkpoint-31: docs(data): annotate dataset columns with measurement units
 # collab-checkpoint-32: feat(model): add precision-recall curve export for threshold analysis
 # collab-checkpoint-33: fix(pipeline): resolve memory leak in streaming aggregation step
+# collab-checkpoint-34: feat(data): add crop-growth-stage encoding to sighting context
