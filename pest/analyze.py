@@ -134,3 +134,4 @@ if __name__ == "__main__":
 # collab-checkpoint-37: feat(analysis): add permutation importance ranking for input features
 # collab-checkpoint-38: perf(pipeline): reduce redundant I/O in multi-pass data cleaning
 # collab-checkpoint-39: feat(model): add Dirichlet prior for multi-class pest classification
+# collab-checkpoint-40: fix(data): strip trailing whitespace from species name field
