@@ -124,3 +124,4 @@ if __name__ == "__main__":
 # collab-checkpoint-27: feat(viz): add interactive map with sighting density choropleth
 # collab-checkpoint-28: feat(pipeline): parallelize feature engineering across CPU cores
 # collab-checkpoint-29: fix(analysis): correct date parsing for southern hemisphere records
+# collab-checkpoint-30: feat(model): add regularization term to prevent overfitting on sparse data
