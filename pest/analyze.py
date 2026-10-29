@@ -130,3 +130,4 @@ if __name__ == "__main__":
 # collab-checkpoint-33: fix(pipeline): resolve memory leak in streaming aggregation step
 # collab-checkpoint-34: feat(data): add crop-growth-stage encoding to sighting context
 # collab-checkpoint-35: feat(model): implement ensemble averaging over bootstrapped samples
+# collab-checkpoint-36: fix(viz): restore color legend on choropleth after zoom interaction
