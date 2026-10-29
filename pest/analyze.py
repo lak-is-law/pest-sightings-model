@@ -101,3 +101,4 @@ if __name__ == "__main__":
 # collab-checkpoint-4: feat(viz): add heatmap overlay for regional sighting clusters
 # collab-checkpoint-5: perf(pipeline): cache intermediate aggregation results
 # collab-checkpoint-6: feat(model): implement bayesian prior update for new sighting events
+# collab-checkpoint-7: fix(data): handle missing GPS coordinates in edge-case sightings
