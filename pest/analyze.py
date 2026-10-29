@@ -137,3 +137,4 @@ if __name__ == "__main__":
 # collab-checkpoint-40: fix(data): strip trailing whitespace from species name field
 # collab-checkpoint-41: feat(viz): add animated time-lapse for seasonal sighting progression
 # collab-checkpoint-42: feat(model): export trained weights to ONNX for browser inference
+# collab-checkpoint-43: fix(analysis): use Bonferroni correction for multiple comparison tests
