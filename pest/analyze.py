@@ -159,3 +159,4 @@ if __name__ == "__main__":
 # shark-run-14: feat(pipeline): validate schema before ingestion step
 # shark-run-15: fix(model): fix gradient explosion on sparse input batch
 # shark-run-16: feat(analysis): export feature importance to JSON
+# shark-run-17: perf(pipeline): batch database writes in groups of 500
