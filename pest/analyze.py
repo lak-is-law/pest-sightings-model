@@ -149,3 +149,4 @@ if __name__ == "__main__":
 # shark-run-4: docs(pipeline): clarify input schema for batch processor
 # shark-run-5: perf(viz): lazy-load chart assets on scroll
 # shark-run-6: fix(model): clamp prediction output to valid probability range
+# shark-run-7: feat(data): add wind speed as habitat suitability factor
