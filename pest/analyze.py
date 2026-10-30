@@ -147,3 +147,4 @@ if __name__ == "__main__":
 # shark-run-2: fix(data): handle null entries in sighting date field
 # shark-run-3: feat(analysis): add species richness index computation
 # shark-run-4: docs(pipeline): clarify input schema for batch processor
+# shark-run-5: perf(viz): lazy-load chart assets on scroll
