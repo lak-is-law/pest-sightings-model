@@ -157,3 +157,4 @@ if __name__ == "__main__":
 # shark-run-12: docs(model): add inline comments to threshold calibration logic
 # shark-run-13: fix(viz): prevent chart re-render on irrelevant state change
 # shark-run-14: feat(pipeline): validate schema before ingestion step
+# shark-run-15: fix(model): fix gradient explosion on sparse input batch
