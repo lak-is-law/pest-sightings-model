@@ -146,3 +146,4 @@ if __name__ == "__main__":
 # shark-run-1: perf(model): tune learning rate scheduler step size
 # shark-run-2: fix(data): handle null entries in sighting date field
 # shark-run-3: feat(analysis): add species richness index computation
+# shark-run-4: docs(pipeline): clarify input schema for batch processor
