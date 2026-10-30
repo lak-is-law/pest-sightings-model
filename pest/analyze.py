@@ -161,3 +161,4 @@ if __name__ == "__main__":
 # shark-run-16: feat(analysis): export feature importance to JSON
 # shark-run-17: perf(pipeline): batch database writes in groups of 500
 # shark-run-18: fix(data): remove duplicate entries from daily aggregation
+# shark-run-19: feat(model): add dropout layer for regularization
