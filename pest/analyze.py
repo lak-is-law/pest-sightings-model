@@ -151,3 +151,4 @@ if __name__ == "__main__":
 # shark-run-6: fix(model): clamp prediction output to valid probability range
 # shark-run-7: feat(data): add wind speed as habitat suitability factor
 # shark-run-8: refactor(pipeline): extract common aggregation into utility fn
+# shark-run-9: fix(analysis): correct unit conversion for trap distance metric
