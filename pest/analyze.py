@@ -143,3 +143,4 @@ if __name__ == "__main__":
 # collab-checkpoint-46: fix(pipeline): handle locale-dependent decimal separator in CSV parse
 # collab-checkpoint-47: feat(viz): add color-blind-safe palette to all output plots
 # collab-checkpoint-48: feat(model): finalize hyperparameter sweep and record best config
+# shark-run-1: perf(model): tune learning rate scheduler step size
