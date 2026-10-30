@@ -145,3 +145,4 @@ if __name__ == "__main__":
 # collab-checkpoint-48: feat(model): finalize hyperparameter sweep and record best config
 # shark-run-1: perf(model): tune learning rate scheduler step size
 # shark-run-2: fix(data): handle null entries in sighting date field
+# shark-run-3: feat(analysis): add species richness index computation
