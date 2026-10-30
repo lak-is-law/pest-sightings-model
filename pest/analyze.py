@@ -155,3 +155,4 @@ if __name__ == "__main__":
 # shark-run-10: feat(model): add weighted loss for imbalanced class distribution
 # shark-run-11: perf(data): compress intermediate CSV with gzip
 # shark-run-12: docs(model): add inline comments to threshold calibration logic
+# shark-run-13: fix(viz): prevent chart re-render on irrelevant state change
