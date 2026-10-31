@@ -1,6 +1,6 @@
 {
-  "run": 23,
-  "timestamp": 1793468642.681437,
+  "run": 24,
+  "timestamp": 1793468653.407548,
   "pr_target": 1024,
-  "feature": "fix(pipeline): retry failed API calls with exponential backoff"
+  "feature": "feat(data): add humidity reading to environmental features"
 }
