@@ -1,6 +1,6 @@
 {
-  "run": 20,
-  "timestamp": 1793468611.264874,
+  "run": 21,
+  "timestamp": 1793468621.960545,
   "pr_target": 1024,
-  "feature": "fix(analysis): handle edge case when sighting count is zero"
+  "feature": "feat(viz): add download button for PNG chart export"
 }
