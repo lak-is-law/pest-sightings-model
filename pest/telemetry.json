@@ -1,6 +1,6 @@
 {
-  "run": 30,
-  "timestamp": 1793468718.196012,
+  "run": 31,
+  "timestamp": 1793468728.185909,
   "pr_target": 1024,
-  "feature": "perf(model): tune learning rate scheduler step size"
+  "feature": "fix(data): handle null entries in sighting date field"
 }
