@@ -1,6 +1,6 @@
 {
-  "run": 16,
-  "timestamp": 1793468569.377779,
+  "run": 17,
+  "timestamp": 1793468580.312105,
   "pr_target": 1024,
-  "feature": "perf(pipeline): batch database writes in groups of 500"
+  "feature": "fix(data): remove duplicate entries from daily aggregation"
 }
