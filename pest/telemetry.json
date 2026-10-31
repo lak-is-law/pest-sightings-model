@@ -1,6 +1,6 @@
 {
-  "run": 11,
-  "timestamp": 1793468516.277892,
+  "run": 12,
+  "timestamp": 1793468526.423296,
   "pr_target": 1024,
-  "feature": "docs(model): add inline comments to threshold calibration logic"
+  "feature": "fix(viz): prevent chart re-render on irrelevant state change"
 }
