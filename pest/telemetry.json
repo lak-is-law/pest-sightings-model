@@ -1,6 +1,6 @@
 {
-  "run": 733,
-  "timestamp": 1793525918.3713868,
+  "run": 734,
+  "timestamp": 1793525928.330243,
   "pr_target": 1024,
-  "feature": "feat(pipeline): validate schema before ingestion step"
+  "feature": "fix(model): fix gradient explosion on sparse input batch"
 }
