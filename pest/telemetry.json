@@ -1,6 +1,6 @@
 {
-  "run": 41,
-  "timestamp": 1793514915.068883,
+  "run": 43,
+  "timestamp": 1793514959.704011,
   "pr_target": 1024,
-  "feature": "docs(model): add inline comments to threshold calibration logic"
+  "feature": "feat(pipeline): validate schema before ingestion step"
 }
