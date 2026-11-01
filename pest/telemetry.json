@@ -1,6 +1,6 @@
 {
-  "run": 162,
-  "timestamp": 1793516120.058409,
+  "run": 163,
+  "timestamp": 1793516129.124641,
   "pr_target": 1024,
-  "feature": "fix(viz): prevent chart re-render on irrelevant state change"
+  "feature": "feat(pipeline): validate schema before ingestion step"
 }
