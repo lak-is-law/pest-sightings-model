@@ -1,6 +1,6 @@
 {
-  "run": 746,
-  "timestamp": 1793526046.844091,
+  "run": 747,
+  "timestamp": 1793526056.906608,
   "pr_target": 1024,
-  "feature": "fix(viz): restore tooltip position on mobile viewport"
+  "feature": "feat(analysis): add temporal autocorrelation diagnostic plot"
 }
