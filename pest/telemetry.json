@@ -1,6 +1,6 @@
 {
-  "run": 303,
-  "timestamp": 1793517477.263338,
+  "run": 304,
+  "timestamp": 1793517486.516103,
   "pr_target": 1024,
-  "feature": "docs(pipeline): clarify input schema for batch processor"
+  "feature": "perf(viz): lazy-load chart assets on scroll"
 }
