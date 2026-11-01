@@ -1,6 +1,6 @@
 {
-  "run": 175,
-  "timestamp": 1793516241.305119,
+  "run": 176,
+  "timestamp": 1793516250.363156,
   "pr_target": 1024,
-  "feature": "refactor(model): split training loop into reusable steps"
+  "feature": "fix(viz): restore tooltip position on mobile viewport"
 }
