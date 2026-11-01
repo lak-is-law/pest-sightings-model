@@ -1,6 +1,6 @@
 {
-  "run": 278,
-  "timestamp": 1793517238.215056,
+  "run": 279,
+  "timestamp": 1793517247.2867908,
   "pr_target": 1024,
-  "feature": "fix(analysis): correct unit conversion for trap distance metric"
+  "feature": "feat(model): add weighted loss for imbalanced class distribution"
 }
