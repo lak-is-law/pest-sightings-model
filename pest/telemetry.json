@@ -1,6 +1,6 @@
 {
-  "run": 211,
-  "timestamp": 1793516583.045272,
+  "run": 212,
+  "timestamp": 1793516592.9275782,
   "pr_target": 1024,
-  "feature": "fix(data): handle null entries in sighting date field"
+  "feature": "feat(analysis): add species richness index computation"
 }
