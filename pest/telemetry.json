@@ -1,6 +1,6 @@
 {
-  "run": 339,
-  "timestamp": 1793517813.909087,
+  "run": 340,
+  "timestamp": 1793517822.764698,
   "pr_target": 1024,
-  "feature": "feat(model): add weighted loss for imbalanced class distribution"
+  "feature": "perf(data): compress intermediate CSV with gzip"
 }
