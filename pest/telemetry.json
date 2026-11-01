@@ -1,6 +1,6 @@
 {
-  "run": 177,
-  "timestamp": 1793516260.177293,
+  "run": 178,
+  "timestamp": 1793516268.982481,
   "pr_target": 1024,
-  "feature": "feat(analysis): add temporal autocorrelation diagnostic plot"
+  "feature": "docs(pipeline): update README with new CLI flags"
 }
