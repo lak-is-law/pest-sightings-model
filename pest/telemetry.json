@@ -1,6 +1,6 @@
 {
-  "run": 95,
-  "timestamp": 1793515487.511934,
+  "run": 96,
+  "timestamp": 1793515496.9283211,
   "pr_target": 1024,
-  "feature": "fix(model): clamp prediction output to valid probability range"
+  "feature": "feat(data): add wind speed as habitat suitability factor"
 }
