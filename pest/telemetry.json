@@ -1,6 +1,6 @@
 {
-  "run": 364,
-  "timestamp": 1793518046.459241,
+  "run": 365,
+  "timestamp": 1793518055.444223,
   "pr_target": 1024,
-  "feature": "perf(viz): lazy-load chart assets on scroll"
+  "feature": "fix(model): clamp prediction output to valid probability range"
 }
