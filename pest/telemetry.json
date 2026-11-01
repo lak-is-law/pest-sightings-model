@@ -1,6 +1,6 @@
 {
-  "run": 622,
-  "timestamp": 1793524676.605176,
+  "run": 623,
+  "timestamp": 1793524687.2227998,
   "pr_target": 1024,
-  "feature": "perf(model): prune low-weight neurons before export"
+  "feature": "fix(pipeline): retry failed API calls with exponential backoff"
 }
