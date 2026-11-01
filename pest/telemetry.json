@@ -1,6 +1,6 @@
 {
-  "run": 516,
-  "timestamp": 1793523522.813592,
+  "run": 517,
+  "timestamp": 1793523536.526368,
   "pr_target": 1024,
-  "feature": "feat(data): add wind speed as habitat suitability factor"
+  "feature": "refactor(pipeline): extract common aggregation into utility fn"
 }
