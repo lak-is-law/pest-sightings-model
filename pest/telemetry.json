@@ -1,6 +1,6 @@
 {
-  "run": 478,
-  "timestamp": 1793523084.278925,
+  "run": 479,
+  "timestamp": 1793523095.694889,
   "pr_target": 1024,
-  "feature": "docs(pipeline): update README with new CLI flags"
+  "feature": "fix(model): normalize input features before sigmoid layer"
 }
