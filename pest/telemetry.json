@@ -1,6 +1,6 @@
 {
-  "run": 160,
-  "timestamp": 1793516101.04256,
+  "run": 161,
+  "timestamp": 1793516110.989559,
   "pr_target": 1024,
-  "feature": "perf(data): compress intermediate CSV with gzip"
+  "feature": "docs(model): add inline comments to threshold calibration logic"
 }
