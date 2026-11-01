@@ -1,6 +1,6 @@
 {
-  "run": 499,
-  "timestamp": 1793523319.964565,
+  "run": 500,
+  "timestamp": 1793523334.220923,
   "pr_target": 1024,
-  "feature": "docs(data): document CSV column naming conventions"
+  "feature": "fix(analysis): handle edge case when sighting count is zero"
 }
