@@ -1,6 +1,6 @@
 {
-  "run": 824,
-  "timestamp": 1793526841.796751,
+  "run": 825,
+  "timestamp": 1793526853.270402,
   "pr_target": 1024,
-  "feature": "fix(model): fix gradient explosion on sparse input batch"
+  "feature": "feat(analysis): export feature importance to JSON"
 }
