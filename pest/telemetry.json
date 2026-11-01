@@ -1,6 +1,6 @@
 {
-  "run": 97,
-  "timestamp": 1793515506.159851,
+  "run": 98,
+  "timestamp": 1793515515.268973,
   "pr_target": 1024,
-  "feature": "refactor(pipeline): extract common aggregation into utility fn"
+  "feature": "fix(analysis): correct unit conversion for trap distance metric"
 }
