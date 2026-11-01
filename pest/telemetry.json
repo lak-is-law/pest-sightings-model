@@ -1,6 +1,6 @@
 {
-  "run": 231,
-  "timestamp": 1793516787.6148999,
+  "run": 232,
+  "timestamp": 1793516796.719439,
   "pr_target": 1024,
-  "feature": "feat(viz): add download button for PNG chart export"
+  "feature": "perf(model): prune low-weight neurons before export"
 }
