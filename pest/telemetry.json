@@ -1,6 +1,6 @@
 {
-  "run": 152,
-  "timestamp": 1793516025.8503191,
+  "run": 153,
+  "timestamp": 1793516034.9259079,
   "pr_target": 1024,
-  "feature": "feat(analysis): add species richness index computation"
+  "feature": "docs(pipeline): clarify input schema for batch processor"
 }
