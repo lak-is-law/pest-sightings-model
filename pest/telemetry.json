@@ -1,6 +1,6 @@
 {
-  "run": 525,
-  "timestamp": 1793523629.810796,
+  "run": 526,
+  "timestamp": 1793523642.5647411,
   "pr_target": 1024,
-  "feature": "feat(analysis): export feature importance to JSON"
+  "feature": "perf(pipeline): batch database writes in groups of 500"
 }
