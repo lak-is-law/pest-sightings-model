@@ -1,2 +1,2 @@
-checkpoint-14: docs(pipeline): document anomaly detection thresholds and fallback logic at 1794721195.883622
+checkpoint-15: feat(analysis): generate confusion matrix and calibration curves at 1794721207.968839
 Co-authored-by: mauryapranav <180206722+mauryapranav@users.noreply.github.com>
