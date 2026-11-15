@@ -1,2 +1,2 @@
-checkpoint-10: feat(analysis): calculate Gini coefficient of regional sighting disparity at 1794721151.893437
+checkpoint-11: fix(data): sanitize string encoding for regional locality names at 1794721162.488416
 Co-authored-by: mauryapranav <180206722+mauryapranav@users.noreply.github.com>
