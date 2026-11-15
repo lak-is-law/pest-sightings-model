@@ -1,2 +1,2 @@
-checkpoint-16: fix(model): stabilize softmax denominator under extreme logit inputs at 1794721219.503307
+checkpoint-17: feat(data): normalize diurnal temperature oscillations across survey grids at 1794721231.515627
 Co-authored-by: mauryapranav <180206722+mauryapranav@users.noreply.github.com>
