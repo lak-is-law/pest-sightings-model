@@ -1,2 +1,2 @@
-checkpoint-21: fix(pipeline): validate timestamp monotonicity across chronological batches at 1794721886.520672
+checkpoint-22: feat(model): add elastic-net penalty term to sparse spatial regression at 1794721897.950114
 Co-authored-by: mauryapranav <180206722+mauryapranav@users.noreply.github.com>
