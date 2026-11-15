@@ -1,0 +1,2 @@
+checkpoint-1: feat(model): integrate geospatial weighting into sighting prediction at 1794721049.133758
+Co-authored-by: mauryapranav <180206722+mauryapranav@users.noreply.github.com>
