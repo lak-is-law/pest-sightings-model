@@ -1,2 +1,2 @@
-checkpoint-5: docs(model): update mathematical derivation of Poisson likelihood function at 1794721096.996153
+checkpoint-6: refactor(pipeline): extract modular feature encoder for crop categories at 1794721108.287832
 Co-authored-by: mauryapranav <180206722+mauryapranav@users.noreply.github.com>
