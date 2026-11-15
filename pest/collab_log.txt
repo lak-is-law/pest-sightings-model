@@ -1,2 +1,2 @@
-checkpoint-1: feat(model): integrate geospatial weighting into sighting prediction at 1794721049.133758
+checkpoint-2: perf(data): vectorize latitude-longitude coordinate transformation at 1794721061.537936
 Co-authored-by: mauryapranav <180206722+mauryapranav@users.noreply.github.com>
