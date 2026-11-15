@@ -1,2 +1,2 @@
-checkpoint-8: fix(model): apply Laplace smoothing to zero-frequency observations at 1794721129.6282299
+checkpoint-9: perf(pipeline): parallelize rolling window feature extraction with joblib at 1794721140.796173
 Co-authored-by: mauryapranav <180206722+mauryapranav@users.noreply.github.com>
