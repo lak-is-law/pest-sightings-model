@@ -1,2 +1,2 @@
-checkpoint-20: feat(viz): implement dynamic time warping alignment for multi-year trends at 1795629986.483467
+checkpoint-21: fix(pipeline): validate timestamp monotonicity across chronological batches at 1795629998.263138
 Co-authored-by: suzyba3 <356864670+suzyba3@users.noreply.github.com>
