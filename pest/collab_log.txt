@@ -1,2 +1,2 @@
-checkpoint-3: fix(pipeline): handle NaN values in micro-climate dataset sensor stream at 1795626499.570987
+checkpoint-4: feat(analysis): compute spatial Moran's I autocorrelation for pest clusters at 1795626512.14451
 Co-authored-by: mauryapranav <180206722+mauryapranav@users.noreply.github.com>
