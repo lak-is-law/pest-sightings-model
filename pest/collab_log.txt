@@ -1,2 +1,2 @@
-checkpoint-2: perf(data): vectorize latitude-longitude coordinate transformation at 1795629763.680098
+checkpoint-3: fix(pipeline): handle NaN values in micro-climate dataset sensor stream at 1795629776.559616
 Co-authored-by: suzyba3 <356864670+suzyba3@users.noreply.github.com>
