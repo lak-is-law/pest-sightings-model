@@ -1,2 +1,2 @@
-checkpoint-25: feat(model): finalize spatial-temporal ensemble model hyperparameters at 1794721930.560469
+checkpoint-1: feat(model): integrate geospatial weighting into sighting prediction at 1795626474.444391
 Co-authored-by: mauryapranav <180206722+mauryapranav@users.noreply.github.com>
