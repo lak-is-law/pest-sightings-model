@@ -1,2 +1,2 @@
-checkpoint-19: refactor(analysis): decouple hypothesis testing utilities into standalone module at 1795629973.748875
+checkpoint-20: feat(viz): implement dynamic time warping alignment for multi-year trends at 1795629986.483467
 Co-authored-by: suzyba3 <356864670+suzyba3@users.noreply.github.com>
