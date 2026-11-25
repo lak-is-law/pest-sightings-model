@@ -1,2 +1,2 @@
-checkpoint-18: perf(model): cache precomputed covariance matrix across MCMC iterations at 1795626683.6159449
+checkpoint-19: refactor(analysis): decouple hypothesis testing utilities into standalone module at 1795626695.371244
 Co-authored-by: mauryapranav <180206722+mauryapranav@users.noreply.github.com>
