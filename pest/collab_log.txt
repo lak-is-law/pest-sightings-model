@@ -1,2 +1,2 @@
-checkpoint-6: refactor(pipeline): extract modular feature encoder for crop categories at 1795629814.893722
+checkpoint-7: feat(viz): add KDE density contour plot for seasonal pest dispersion at 1795629827.217864
 Co-authored-by: suzyba3 <356864670+suzyba3@users.noreply.github.com>
