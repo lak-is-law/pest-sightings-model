@@ -1,2 +1,2 @@
-checkpoint-7: feat(viz): add KDE density contour plot for seasonal pest dispersion at 1795629827.217864
+checkpoint-8: fix(model): apply Laplace smoothing to zero-frequency observations at 1795629839.299488
 Co-authored-by: suzyba3 <356864670+suzyba3@users.noreply.github.com>
