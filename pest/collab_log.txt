@@ -1,2 +1,2 @@
-checkpoint-4: feat(analysis): compute spatial Moran's I autocorrelation for pest clusters at 1795626512.14451
+checkpoint-5: docs(model): update mathematical derivation of Poisson likelihood function at 1795626524.035412
 Co-authored-by: mauryapranav <180206722+mauryapranav@users.noreply.github.com>
