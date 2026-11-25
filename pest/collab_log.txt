@@ -1,2 +1,2 @@
-checkpoint-13: perf(viz): reduce SVG DOM complexity on interactive choropleth map at 1795626620.601588
+checkpoint-14: docs(pipeline): document anomaly detection thresholds and fallback logic at 1795626632.074132
 Co-authored-by: mauryapranav <180206722+mauryapranav@users.noreply.github.com>
