@@ -1,2 +1,2 @@
-checkpoint-17: feat(data): normalize diurnal temperature oscillations across survey grids at 1795629949.541464
+checkpoint-18: perf(model): cache precomputed covariance matrix across MCMC iterations at 1795629961.9502919
 Co-authored-by: suzyba3 <356864670+suzyba3@users.noreply.github.com>
