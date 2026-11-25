@@ -1,2 +1,2 @@
-checkpoint-24: docs(analysis): add methodology guide for seasonal boundary detection at 1795626754.990863
+checkpoint-25: feat(model): finalize spatial-temporal ensemble model hyperparameters at 1795626767.608166
 Co-authored-by: mauryapranav <180206722+mauryapranav@users.noreply.github.com>
