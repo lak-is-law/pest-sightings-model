@@ -1,2 +1,2 @@
-checkpoint-9: perf(pipeline): parallelize rolling window feature extraction with joblib at 1795626572.9313579
+checkpoint-10: feat(analysis): calculate Gini coefficient of regional sighting disparity at 1795626585.0719502
 Co-authored-by: mauryapranav <180206722+mauryapranav@users.noreply.github.com>
